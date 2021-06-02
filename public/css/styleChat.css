@@ -1,0 +1,19 @@
+table, td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+h1, h3, p {
+    text-align: center;
+}
+
+.inactive {
+    visibility: hidden;
+}

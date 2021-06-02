@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styleChat.css">
+    <title>LongIn_Page</title>
+</head>
+
+<body>
+
+    <div id="login_area_p">
+        <h1>FERRARA Chat</h1>
+
+        <p>
+        <table>
+            <tr>
+                <td>
+                    <form >
+                        <label><b>Username</b></label>
+                        <br>
+                        <input type="text" id="username">
+                        <br>
+                        <hr>
+                        <input id="btnEntra" type="button" value="Log In">
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+        </p>
+
+    </div>
+
+    <!-- Chat Area -->
+
+    <div id="chat_area_p" class="inactive">
+        <h1>Welcome to FERRARA Chat</h1>
+
+        <p>
+
+        <table>
+            <tr>
+
+                <td>
+                    <label id="labelUtenti">Users:</label>
+                    <div id="users"></div>
+
+
+                <td>
+                    <div id="msgArea"></div>
+                </td>
+
+            </tr>
+
+            <tr>
+                <form id="ChatF">
+                    <td>
+                        <input type="text" id="msg" />
+                    </td>
+
+                    <td>
+
+                        <button>Send Message</button>
+
+
+                    </td>
+                </form>
+            </tr>
+
+
+        </table>
+
+        </p>
+
+        <p>
+        <table>
+            <tr>
+                <td>
+                    <form id="form">
+                        <button id="btnEsci">Exit</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+        </p>
+
+    </div>
+
+
+    <script src="js/chat.js"></script>
+    <script src="/socket.io/socket.io.js" ></script>
+</body>
+
+</html>

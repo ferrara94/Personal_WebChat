@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styleChat.css">
+    <title>Chat_Page</title>
+</head>
+<body>
+    <h1>Welcome to FERRARA Chat</h1>
+
+    <p>
+
+        <table>
+            <tr>
+                
+                <td>
+                    <label id="labelUtenti">Users:</label>
+                    <div id="users"></div>
+                    
+
+                <td>
+                    <div id="msgArea" ></div>
+                </td>
+
+            </tr>
+
+            <tr>
+                <form id="ChatF">
+                    <td>
+                        <input type="text" id="msg"/>
+                    </td>
+
+                    <td>
+                        
+                        <button>Send Message</button>
+                    
+                        
+                    </td>
+                </form>
+            </tr>
+
+
+        </table>
+
+    </p>
+
+    <p>
+        <table>
+            <tr>
+                <td>
+                    <form id="form">
+                        <button id="btnEsci">Exit</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    
+    </p>
+
+    
+<script src="/socket.io/socket.io.js" ></script>
+<script src="js/chat.js" ></script>
+
+</body>
+</html>
