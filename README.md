@@ -35,5 +35,5 @@ Then
 - [ ] socket.io
 
 ---
-#### > example of how
+#### > example shown
 ![image](https://user-images.githubusercontent.com/45211249/120551701-9ab73080-c3f6-11eb-8fcf-9658c777a74b.png)
