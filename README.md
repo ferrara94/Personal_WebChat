@@ -12,7 +12,7 @@ Despite its simple UI and essential feature set, the application implements core
 
 > ⚠️ **Note:**  
 > Since this project was developed some time ago, certain dependencies, like the WebSocket one, may be outdated or incompatible with newer versions.  
-> 💡 To avoid version issues, it's recommended to use the Docker which sets up the required environment with the correct versions.
+> 💡 To avoid version issues, it's recommended to use Docker which sets up the required environment with the correct versions.
 
 
 **To run the application locally:**
